@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "env": {
+      "browser": true
+  },
+  "rules": {
+    "max-len": ["error", { "code": 80 }],
+    "import/no-unresolved": [2, {"ignore": ["^meteor/"]}],
+    "import/no-extraneous-dependencies": [0],
+    "import/extensions": [2, "ignorePackages"]
+  },
+  "globals": {
+    "Package": false
+  }
+}
